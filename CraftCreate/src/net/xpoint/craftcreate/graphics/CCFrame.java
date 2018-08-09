@@ -1,4 +1,4 @@
-package net.xpoint.craftcreate.gui;
+package net.xpoint.craftcreate.graphics;
 
 import java.awt.Dimension;
 

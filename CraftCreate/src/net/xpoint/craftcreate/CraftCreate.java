@@ -1,6 +1,6 @@
 package net.xpoint.craftcreate;
 
-import net.xpoint.craftcreate.gui.CCFrame;
+import net.xpoint.craftcreate.graphics.CCFrame;
 
 public class CraftCreate {
 	
