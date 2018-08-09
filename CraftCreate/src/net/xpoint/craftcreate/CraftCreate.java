@@ -4,6 +4,8 @@ public class CraftCreate {
 	
 	public static void main(String[] args) {
 		
+		
+		
 	}
 	
 }
