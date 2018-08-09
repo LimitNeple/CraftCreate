@@ -1,4 +1,4 @@
-package net.xpoint.craftcreate.etc;
+package net.xpoint.craftcreate.tile;
 
 import net.xpoint.craftcreate.item.Item;
 

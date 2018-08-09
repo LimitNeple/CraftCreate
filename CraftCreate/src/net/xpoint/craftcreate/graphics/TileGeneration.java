@@ -1,7 +1,7 @@
 package net.xpoint.craftcreate.graphics;
 
-import net.xpoint.craftcreate.etc.Tile;
 import net.xpoint.craftcreate.init.ItemInit;
+import net.xpoint.craftcreate.tile.Tile;
 
 public class TileGeneration {
 	
@@ -14,7 +14,10 @@ public class TileGeneration {
 		
 		for(int x = 0; x < WIDTH; x++) {
 			for(int y = 0; y < 10; y++) {
-				world[x][y] = new Tile(ItemInit.dirt);
+				world[x][y] = new Tile(ItemInit.dirt, 10);
+			}
+			for(int y = 10; y < HEIGHT; y++) {
+				world[x][y] = new Tile(ItemInit.air, 8);
 			}
 		}
 		

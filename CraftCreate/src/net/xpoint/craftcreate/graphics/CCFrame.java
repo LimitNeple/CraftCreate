@@ -10,6 +10,8 @@ public class CCFrame extends JFrame{
 		setTitle("Craft Create! [Dev Version]");
 		setSize(new Dimension(800, 600));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
+
 		
 		setVisible(true);
 	}
