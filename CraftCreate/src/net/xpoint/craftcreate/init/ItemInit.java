@@ -4,8 +4,9 @@ import net.xpoint.craftcreate.item.Item;
 
 public class ItemInit {
 	
-	private Item dirt = new Item("Dirt", 1);
-	private Item stone = new Item("Stone", 1);
-	private Item lava = new Item("Lava", 1);
+	public static Item dirt = new Item("Dirt", 1);
+	public static Item stone = new Item("Stone", 1);
+	public static Item lava = new Item("Lava", 1);
+	public static Item grass = new Item("Grass", 2);
 	
 }
