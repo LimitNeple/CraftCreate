@@ -2,11 +2,12 @@ package net.xpoint.craftcreate.item;
 
 public class Item implements IItem{
 
-	private String name;
+	private String name, adname;
 	private int level;
 	
-	public Item(String name, int level) {
+	public Item(String name, String adname, int level) {
 		this.name = name;
+		this.adname = adname;
 		this.level = level;
 	}
 	
@@ -18,6 +19,11 @@ public class Item implements IItem{
 	@Override
 	public int getItemLevel() {
 		return level;
+	}
+	
+	@Override
+	public String getAdressName() {
+		return adname;
 	}
 	
 	@Override
